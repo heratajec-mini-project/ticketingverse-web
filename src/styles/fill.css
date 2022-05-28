@@ -1,0 +1,67 @@
+.acbtn{
+    display: inline-block;
+    background: #cea905;
+    padding: 7px 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.txt{
+    color: white;
+    text-align: center;
+}
+.input{
+    padding: 8px 18px 10px 15px;
+    width: 500px;
+}
+.field {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+    /* color: white; */
+    text-decoration: none;
+}
+/* field a:hover{
+    border-color: white;
+} */
+.lbtn{
+    /* display: inline-block; */
+    /* background-color: black; */
+    width: 100px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: medium;
+    color: white;
+    /* border-color: black; */
+    margin-left: 120px;
+    margin-bottom: 10px;
+    
+}
+.put{
+    text-align: right;
+    font-size: small;
+
+}.check{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+
+
