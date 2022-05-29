@@ -8,7 +8,7 @@ import {
   Route,
 } from "react-router-dom";
 import Login from './pages/loginPage';
-import signUp from './pages/signUpPage';
+import SignUp from './pages/signUpPage';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 
           <Route index element={<Login />} />
             
-            <Route path="signUp" element={<signUp/>} />
+          <Route path="SignUp" element={<SignUp/>} />
            
 
             {/* <Route index element={<LeagueStandings />} /> */}
