@@ -42,16 +42,18 @@
     /* border-color: black; */
     margin-left: 120px;
     margin-bottom: 10px;
-    
+    margin-right: 100px;
+  
 }
 .put{
-    text-align: right;
+    text-align: center;
     font-size: small;
 
 }.check{
-    margin-top: 10px;
+    margin-top: 50px;
     font-size: 15px;
     font-weight: 500;
+    text-align: left;
 }
 @media all and (min-width: 480px) {
     .Login {
@@ -61,6 +63,7 @@
     .Login form {
       margin: 0 auto;
       max-width: 320px;
+      
     }
   }
 

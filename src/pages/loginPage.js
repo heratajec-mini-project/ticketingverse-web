@@ -38,13 +38,18 @@ export default function Login() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               />
+              <div style={{flexDirection:'row'}}>
+
             <Form.Group controlId="formBasicCheckbox" className='check'>
               <Form.Check type="checkbox" label="Remember me" />
             </Form.Group>
-          </Form.Group>
-          <h6 className="put">
+
+            <h6 style={{textAlign:'right'}}>
             <Link to="/forgot">Forgot Password</Link>
           </h6>
+              </div>
+          </Form.Group>
+         
           
 
           <Button
@@ -55,12 +60,12 @@ export default function Login() {
             className="lbtn"
            
             disabled={!validateForm()}
-            style={{alignItems:'center', justifyContent:'center'}}>
+            >
             Login
           </Button>
               
           <h6 className="put">
-            <Link to="signUp">Don't have an account?Sign Up</Link>
+            <Link to="signUp">Don't have an account? Sign Up</Link>
           </h6>
         </Form>
             </div>
